@@ -1,6 +1,4 @@
-import configparser
-import json
-import re
+
 from telethon.errors import SessionPasswordNeededError
 from telethon import TelegramClient, events, sync
 from telethon.tl.functions.messages import (GetHistoryRequest)
